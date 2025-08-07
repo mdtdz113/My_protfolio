@@ -1,11 +1,11 @@
 import React from "react";
-import cv from "../assets/CV/CV_TTS.pdf"
+import cv from "../assets/CV/CV_Mai_Dinh_Truong_Fullstack_Developer.pdf";
 
 export const Cv = () => {
     return (
         <div className="cv">
             <a href={cv} download="MaiDinhTruong.pdf">
-                <button>Download CV</button>
+                <span className="tagline">Download CV</span>
             </a>
         </div>
     );

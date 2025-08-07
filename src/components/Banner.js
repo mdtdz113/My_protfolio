@@ -16,7 +16,7 @@ export const Banner = () => {
     const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Intern", "Thực tập sinh"];
+    const toRotate = ["Intern", "IT Intern"];
     const period = 2000;
 
     useEffect(() => {
@@ -107,11 +107,11 @@ export const Banner = () => {
                                         <img src={github} alt="email" />
                                         <h5>
                                             <a
-                                                href="https://github.com/bncoanh"
+                                                href="https://github.com/mdtdz113"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                             >
-                                                https://github.com/bncoanh
+                                                https://github.com/mdtdz113
                                             </a>
                                         </h5>
                                     </div>

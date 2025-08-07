@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import proj1 from "../assets/img/proj1.png";
-import proj2 from "../assets/img/proj2.png";
-import proj3 from "../assets/img/proj3.png";
+import proj2 from "../assets/img/project3.png";
+import project2 from "../assets/img/project2.png";
 import github from "../assets/img/github.svg";
 import eye from "../assets/img/eye.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -15,7 +15,7 @@ export const Projects = () => {
             title: "Website ReactJS",
             description: (
                 <a
-                    href="https://github.com/bncoanh/web-reactjs"
+                    href="https://github.com/mdtdz113/ReactJs-DACN"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -34,24 +34,10 @@ export const Projects = () => {
             imgUrl: proj1,
         },
         {
-            title: "Web Shopping Assistant",
-            description: (
-                <a href="https://github.com/bncoanh/WebShopping-assistant" target="_blank" rel="noopener noreferrer">
-                    <img src={github} alt="" className="small_img" />
-                </a>
-            ),
-            link: (
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <img src={eye} alt="" className="small_img" />
-                </a>
-            ),
-            imgUrl: proj3,
-        },
-        {
-            title: "Shopping Assistant",
+            title: "Food App NodeJs",
             description: (
                 <a
-                    href="https://github.com/bncoanh/UngDungHotroMuaSamTrucTuyen"
+                    href="https://github.com/mdtdz113/food_app_NodeJs"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -60,7 +46,29 @@ export const Projects = () => {
             ),
             link: (
                 <a
-                    href="https://github.com/bncoanh/WebShopping-assistant"
+                    href="https://github.com/mdtdz113/food_app_NodeJs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src={eye} alt="" className="small_img" />
+                </a>
+            ),
+            imgUrl: project2,
+        },
+        {
+            title: "Website_Boostrap",
+            description: (
+                <a
+                    href="https://github.com/mdtdz113/Web_Shopping_Assistant"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src={github} alt="" className="small_img" />
+                </a>
+            ),
+            link: (
+                <a
+                    href="https://github.com/mdtdz113/Web_Shopping_Assistant"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

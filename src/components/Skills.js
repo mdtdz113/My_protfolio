@@ -3,6 +3,8 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg";
 import meter5 from "../assets/img/meter5.svg";
+import nodejs from "../assets/img/nodejs.svg";
+import bootstrap from "../assets/img/bootstrap.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -38,7 +40,8 @@ export const Skills = () => {
                             <br />
                             <p>
                                 I am a web developer. I can use the following
-                                languages: JavaScript, Python, and the following <br/>
+                                languages: JavaScript, Python, and the following{" "}
+                                <br />
                                 frameworks: ReactJS, NodeJS, and Flask.
                             </p>
                             <Carousel
@@ -54,7 +57,14 @@ export const Skills = () => {
                                     <img src={meter4} alt="Image" />
                                     <h5>React JS</h5>
                                 </div>
-
+                                <div className="item">
+                                    <img src={nodejs} alt="Image" />
+                                    <h5>NodeJS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={bootstrap} alt="Image" />
+                                    <h5>Bootstrap</h5>
+                                </div>
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
                                     <h5>HTML</h5>
